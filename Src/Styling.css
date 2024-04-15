@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+}
+
+.hero-section {
+  background-image: url(/Assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.header_section {
+  padding: 15px 0px;
+}
+
+.container-fluid {
+  padding: 0px 25px;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.navbar-brand span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  padding: 5px 0px;
+}
