@@ -30,3 +30,50 @@
 .nav-link {
   padding: 5px 0px;
 }
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+.slider-section {
+  padding: 45px 0px 145px;
+}
+
+.detail-box h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+
+.img-box {
+  margin: 45px 0;
+}
+
+.img-box img {
+  width: 100%;
+  -webkit-animation: upDown 5s infinite;
+  animation: upDown 5s infinite;
+}
+
+button {
+  color: #ffffff;
+  background-color: #00BBF0;
+  border: none;
+}
+
+.btn-1 {
+  margin: 5px;
+  padding: 10px 15px;
+  width: 165px;
+}
+
+.btn-box {
+  margin: 25px -5px 0px;
+}
+
+button:hover {
+  background-color: #007bf0;
+}
