@@ -166,6 +166,15 @@ button:hover {
   flex-grow: 1;
 }
 
+.desc a:hover {
+  color: #007bff;
+}
+
+.service-button {
+  margin-top: 4%;
+  text-align: center;
+}
+
 @keyframes upDown {
 
   0% {
