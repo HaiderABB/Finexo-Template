@@ -15,8 +15,9 @@
   padding: 15px 0px;
 }
 
-.hero-section.container-fluid {
+.hero-section .container-fluid {
   padding: 0px 25px;
+  text-align-last: center;
 }
 
 .navbar {
@@ -29,7 +30,7 @@
 }
 
 .nav-link {
-  padding: 5px 0px;
+  padding: 5px 20px !important;
 }
 
 .nav-link:hover {
@@ -52,6 +53,11 @@
   height: 100%;
   align-items: center;
   justify-content: center;
+}
+
+.hero-section .detail-box {
+  display: flex;
+  flex-direction: column;
 }
 
 .detail-box h1 {
@@ -80,13 +86,13 @@ button {
 }
 
 .btn-1 {
-  margin: 5px;
+  margin: 5px 5px 5px 0px;
   padding: 10px 15px;
   width: 165px;
 }
 
 .btn-box {
-  margin: 25px -5px 0px;
+  margin: 25px 0px 0px;
   padding: 10px 15px;
 }
 
@@ -106,13 +112,9 @@ button {
   margin: 10px 0px 0px;
 }
 
-.services-section .container {
-  display: flex;
-}
 
-.services-section .row {
-  flex: 1;
-}
+
+.services-section .row {}
 
 button:hover {
   background-color: #007bf0;
@@ -125,16 +127,14 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1;
-  height: 100%;
   padding: 1rem;
+  margin-top: 45px;
 }
 
 
 
 .logo-box {
   width: 25%;
-  flex-grow: 1;
 }
 
 .logo-box img {
@@ -156,9 +156,7 @@ button:hover {
   font-weight: bold;
 }
 
-.box .desc {
-  flex-grow: 1;
-}
+.box .desc {}
 
 .desc a:hover {
   color: #007bff;
@@ -183,45 +181,55 @@ button:hover {
 
 .AboutUs-section {
   background-color: #00204a;
+  padding: 90px 0px;
+
 }
+
 
 .AboutUs-section .img-box {
   animation: none;
 }
 
-.AboutUs-section .container {
-  margin-top: 2%;
+.AboutUs-section .btn-1 {
+  padding: 10px 45px;
+  margin: 15px 0px 0px;
+  width: auto;
 }
 
 .ChooseUs-section {
-  margin-top: 5%;
-}
-
-.ChooseUs-section .container {
-  margin-top: 2%;
+  padding: 90px 0px;
 }
 
 .ChooseUs-section .row {
   display: flex;
-  padding: 1rem;
+  margin: 45px 0px 0px;
+  align-items: center;
+  justify-content: center;
 }
 
-.ChooseUs-section .desc {
-  margin-top: 2%;
-}
 
 .ChooseUs-section .img-circle {
   border-radius: 50%;
-  border: 6px solid #00204a;
+  border: 5px solid #00204a;
   min-width: 120px;
   min-height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0px 0px 20px;
 }
 
 .ChooseUs-section img {
   width: 55px;
+}
+
+
+.ChooseUs-section h5 {
+  margin: 0px 0px 10px;
+}
+
+.ChooseUs-section p {
+  margin: 0;
 }
 
 .ChooseUs-section .btn-box {
@@ -246,8 +254,8 @@ button:hover {
 .inner-box {
   background: linear-gradient(to bottom, #002759, #002b64);
   border-radius: 5px;
-  padding: 1rem;
-  height: 100%;
+  margin-top: 1.5rem;
+  padding: 35px 0 0 0;
 }
 
 .inner-box .img-circle {
@@ -267,20 +275,26 @@ button:hover {
   animation: none;
 }
 
+.inner-box .details {
+  margin: 25px 0;
+}
+
+
+
 .inner-box h5 {
   font-weight: 600;
   color: #00BBF0;
   margin: 0px 0px 8px;
 }
 
+.details p {
+  margin: 0px 0px 16px;
+}
+
 .social-box {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 3rem;
-  gap: 5rem;
-  margin-bottom: 2rem;
+  padding: 10px 45px 20px 45px;
+  justify-content: space-between;
 }
 
 .team-section .container-fluid {
