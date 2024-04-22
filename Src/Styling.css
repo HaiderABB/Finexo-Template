@@ -41,11 +41,14 @@
   padding: 45px 0px 145px;
 }
 
-.col-md-6 {
+.hero-section .col-md-6 {
   display: flex;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.col-md-6 h1 {
+  font-weight: bold;
 }
 
 .row {
